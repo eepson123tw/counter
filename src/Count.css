@@ -1,0 +1,71 @@
+
+body{
+  background-color: #3336;
+}
+.count{
+   width: 500px;
+   height: 500px;
+   background-color: white;
+   margin: 100px auto;
+   padding: 20px;
+   box-sizing: border-box;
+}
+.count p{
+  position: absolute;
+  font-size: 30px;
+}
+.count input{
+  display: block;
+  font-size: 20px;
+  font-weight: 800;
+  width: 75%;
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: auto;
+  border: 3px solid black;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.btn_func{
+  width: 20%;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 80%;
+}
+.btn_func button{
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  outline: unset;
+  border: 1px solid gainsboro;
+  text-align: center;
+  border-radius: 10px;
+  line-height: 50px;
+  cursor: pointer;
+}
+.btn_func button:hover{
+  background-color: gold;
+}
+.btn_number{
+  width: 80%;
+  float: right;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: center;
+}
+.btn_number button.reset{
+  width: 238px;
+}
+.btn_number button{
+  width: 120px;
+  height: 100px;
+  transition: all .2s;
+  font-size: 50px;
+}
+.btn_number button:hover{
+  background-color: gray;
+  color: white;
+}
